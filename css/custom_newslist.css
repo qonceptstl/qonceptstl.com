@@ -1,0 +1,41 @@
+.section {
+    padding: 2em 0;
+}
+
+.section-title {
+  text-transform: none;
+  font-weight: 300;
+}
+
+.section-title strong {
+  font-weight: 700;
+}
+
+.news-arrow {
+	display: inline-block;
+	width: 3em;
+	height: 0.7em;
+	transform: skewX(40deg);
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+}
+
+.l#212529kBox {
+	position: relative;
+	width: 300px;
+	height: 70px;
+	margin: 15px auto;
+  }
+  .linkBox a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+/*
+.news-item a{
+	color: #212529;
+}*/
