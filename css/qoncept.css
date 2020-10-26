@@ -1,0 +1,100 @@
+body header.masthead .container .intro-heading{
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+body section#contact .text-muted{
+	color: #fff !important;
+}
+
+body header.masthead .container .intro-lead-in{
+	font-size: 30px;
+}
+
+@media (min-width: 767px) {
+  #features .features-item {
+    margin: 0 0 30px;
+  }
+}
+
+
+table.company{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+table.company tr{
+  border-bottom: solid 3px #f8f9fa;
+}
+
+table.company tr:last-child{
+  border-bottom: none;
+}
+
+table.company th{
+  position: relative;
+  text-align: left;
+  width: 25%;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
+
+table.company th:after{
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top:calc(50% - 10px);
+  right:-10px;
+  border-left: 10px solid #212529;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+table.company td{
+  text-align: left;
+  width: 75%;
+  background-color: #fff;
+  padding: 10px 20px 10px 30px;
+  font-size: 0.9rem;
+}
+
+a.contact-addr{
+  background-color: #3272f6;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+
+a.button{
+  background-color: #3272f6;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+
+
+header.posefit-top {
+  text-align: center;
+  background-image: linear-gradient(-45deg, #efefef 25%, #ffffff 25%, #ffffff 50%, #efefef 50%, #efefef 75%, #ffffff 75%, #ffffff);
+  background-repeat: repeat;
+  background-size: 40px 40px;
+}
+
+header.posefit-top .intro-text {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.intro-heading span{
+  font-weight: bold;
+}
