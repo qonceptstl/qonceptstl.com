@@ -78,7 +78,10 @@ a.button{
   background-color: #3272f6;
   color: #fff;
   border-radius: 4px;
-  padding: 2px 5px;
+  padding: 1px 10px;
+}
+a.button:hover{
+  text-decoration: none;
 }
 
 
@@ -97,4 +100,8 @@ header.posefit-top .intro-text {
 
 .intro-heading span{
   font-weight: bold;
+}
+
+p.section-subheading {
+  line-height: 1.6em;
 }
